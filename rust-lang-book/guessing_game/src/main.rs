@@ -8,7 +8,7 @@ fn main() {
 
     let mut guess = String::new();  // Test comment.
 
-    io::stdin().read_line(&mut guess)  // Apparently carriage returns don't matter.
+    io::stdin().read_line(&mut guess)  // Apparently newlines don't matter.
         .expect("Failed to read line");
 
     println!("You guessed: {}", guess);
